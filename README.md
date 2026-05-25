@@ -6,6 +6,7 @@ Python>=3.7 Pytorch==1.3 NVIDIA GPU + CUDA
 
 # Citation
 If you use this code of our paper please cite:
+
 '@article{yuan2026pstan,
   title={PSTAN: A JND-aware Pairwise Spatio-Temporal Alignment Network for Compressed Videos Quality Enhancement},
   author={Yuan, Yuan and Li, Eryong and Zhang, Jiawei and Ren, Jinchang and Lu, Xu},
