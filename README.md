@@ -2,7 +2,7 @@
 PSTAN:A JND-aware Pairwise Spatio-Temporal Alignment Network for Compressed Videos Quality Enhancement.
 
 # Requirements
-Python>=3.7 Pytorch==1.3 NVIDIA GPU + CUDA
+Python>=3.7 Pytorch>=1.1 NVIDIA GPU + CUDA
 * Environment
 ```
 conda create -n pstan python=3.7 -y && conda activate patan
@@ -12,8 +12,14 @@ unzip PSTAN.zip && cd PSTAN
 # given CUDA 11.6
 python -m pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
 python -m pip install tqdm lmdb pyyaml opencv-python scikit-image
-
 ```
+
+* DCNv2  
+```
+cd ops/dcn/  
+bash build.sh
+```
+
 # Citation
 If you use this code of our paper please cite:
 
