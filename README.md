@@ -47,4 +47,4 @@ If you use this code of our paper please cite:
 ```
 
 # Acknowledgments
-This repository is implemented based on [BasicSR](https://github.com/XPixelGroup/BasicSR) and [VSR-Transformer](https://github.com/caojiezhang/VSR-Transformer). If you use the repository, please consider citing BasicSR,VSR-Transformer.
+This repository is implemented based on [BasicSR](https://github.com/XPixelGroup/BasicSR) and [VSR-Transformer](https://github.com/caojiezhang/VSR-Transformer). If you use the repository, please consider citing BasicSR,VSR-Transformer. Also, thanks to [VideoSet](http://ieee-dataport.org/documents/videoset) for providing the dataset.
