@@ -19,6 +19,19 @@ python -m pip install tqdm lmdb pyyaml opencv-python scikit-image
 cd ops/dcn/  
 bash build.sh
 ```
+* VideoSet dataset  
+You can get the dataset from [VideoSet](http://ieee-dataport.org/documents/videoset).
+
+# Train
+```
+python basicsr/train.py --opt_path ./options/train/train_videoset.yaml
+```
+
+# Test
+```
+python basicsr/test.py --opt_path ./options/test/test_PSTAN_videoset.yaml
+```
+
 
 # Citation
 If you use this code of our paper please cite:
@@ -32,7 +45,6 @@ If you use this code of our paper please cite:
   publisher={IEEE}
 }
 ```
-
 
 # Acknowledgments
 This repository is implemented based on [BasicSR](https://github.com/XPixelGroup/BasicSR) and [VSR-Transformer](https://github.com/caojiezhang/VSR-Transformer). If you use the repository, please consider citing BasicSR,VSR-Transformer.
