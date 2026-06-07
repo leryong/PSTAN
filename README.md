@@ -5,7 +5,7 @@ PSTAN:A JND-aware Pairwise Spatio-Temporal Alignment Network for Compressed Vide
 Python>=3.7 Pytorch>=1.1 NVIDIA GPU + CUDA
 * Environment
 ```
-conda create -n pstan python=3.7 -y && conda activate patan
+conda create -n pstan python=3.7 -y && conda activate pstan
 git clone https://github.com/leryong/PSTAN
 unzip PSTAN.zip && cd PSTAN
 
