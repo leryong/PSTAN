@@ -37,13 +37,16 @@ python basicsr/test.py --opt_path ./options/test/test_PSTAN_videoset.yaml
 If you use this code of our paper please cite:
 
 ```yaml
-@article{yuan2026pstan,
-  title={PSTAN: A JND-aware Pairwise Spatio-Temporal Alignment Network for Compressed Videos Quality Enhancement},
+@ARTICLE{11367012,
   author={Yuan, Yuan and Li, Eryong and Zhang, Jiawei and Ren, Jinchang and Lu, Xu},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={PSTAN: A JND-Aware Pairwise Spatio-Temporal Alignment Network for Compressed Videos Quality Enhancement}, 
   year={2026},
-  publisher={IEEE}
-}
+  volume={36},
+  number={6},
+  pages={8491-8505},
+  keywords={Videos;Training;Image coding;Visualization;Quality assessment;Optical flow;Circuits and systems;Transformers;Motion compensation;Image restoration;Compressed video quality enhancement (CVQE);pairwise spatio-temporal alignment network (PSTAN);just noticeable difference (JND)},
+  doi={10.1109/TCSVT.2026.3658352}}
 ```
 
 # Acknowledgments
